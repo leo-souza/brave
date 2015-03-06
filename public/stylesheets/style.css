@@ -1,0 +1,35 @@
+#userlist{
+	border: 1px solid #000;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2px;
+}
+
+#userlist > div{
+	margin-bottom: 5px;
+	background-color: #eee;
+	padding: 5px;
+}
+
+#colors{
+	position: absolute;
+	display: none;
+}
+
+.color{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.blue{ background-color: blue;}
+.red{ background-color: red;}
+.green{ background-color: green;}
+.brown{ background-color: brown;}
+.yellow{ background-color: yellow;}
+.purple{ background-color: purple;}
+.orange{ background-color: orange;}
+.pink{ background-color: pink;}
+.gray{ background-color: gray;}

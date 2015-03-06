@@ -1,0 +1,13 @@
+{
+  "name": "Wander",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "express3-handlebars": "~0.5.0"
+  }
+}
